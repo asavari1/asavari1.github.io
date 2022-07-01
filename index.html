@@ -8,24 +8,57 @@
 function pasuser(form) { if (form.id.value=="Asavari") { if (form.pass.value=="Asavari") {location=
 'clgflhaye8yq14700hxbkltssvkpiffgbjjccddhophfuditogyoyigfidyss5arw4wwr85@.html' } else { alert("Wrong Password") } } else { alert("Wrong Username") } } </script> 
 
-<body> <form name="login" id="form"> Username : &#160
-<input name="id" size="10" type="text" id="i"><br> Password : &#160
-<input name="pass" size="10" type="password" id="i"> <br><br>
+<form name="login" id="form">
+<input name="id" size="10" type="text" id="i" placeholder="USERNAME"><br>
+<input name="pass" size="10" type="password" id="i" placeholder="PASSWORD"> <br>
 <input value="Login" id="button"onclick="pasuser(this.form)" type="button" align="center"> </form>
-</body>
 
 <style>
+	:root{--index:0;}
 
-	#form{
-	font-family:'Yatra One';
+        noscript {z-index:10;
+	font-size:3vh;
+	color:red;
+	font-family:"Yatra One";
+	background:radial-gradient(lightcyan,powderblue,lightcyan);
+	text-align:center;
+        align-items:center;
+        justify-content:center;
+	position:fixed;
+	padding-left:5vw;
+	padding-top:10vh;
+	padding-bottom:60vh;}
+
+	#form {
+	background:cyan;
 	text-transform:uppercase;
-	color:;
 	position:absolute;
 	margin-left:10vh;
 	font-size:3vh;
 	top:30vh}
 
-	#i{color:black;height:2.5vh;width:10vh;border:.1vh solid black;position:absolute;font-size:2.4vh;font-family:'Gotu';}
+	#i {color:navy;
+	text-shadow:1px 1px 5px cyan;
+	height:2.5vh;
+	text-align:center;
+	width:30vh;
+	border:.1vh solid black;
+	position:absolute;
+	font-size:2.4vh;
+	font-family:'Gotu';}
 
-	#button{font-family:'Courgette';font-size:1.5vh;height:2vh;width:10vh;left:8vh;position:absolute;background:linear-gradient(45deg,cyan,lightcyan,cyan);color:navy;border:.1vh solid black}
+	#button{font-family:'Courgette';
+	font-size:1.5vh;
+	height:2vh;
+	width:10vh;
+	left:8vh;
+	position:absolute;
+	background:linear-gradient(45deg,cyan,lightcyan,cyan);
+	color:navy;
+	border:.1vh solid black}
+
+
+
 </style>
+<noscript>Please enable javascript in your browser setting.<br>
+	It is disabled.<br> Otherwise,page won't work.</noscript>
